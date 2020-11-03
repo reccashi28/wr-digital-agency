@@ -97,7 +97,7 @@ background: linear-gradient(90deg, rgba(89,109,227,1) 0%, rgba(22,46,149,1) 100%
 }
 .container svg {
     position: absolute;
-    width: 100%;
+    width: 102%;
     left: 0;
     margin-bottom: 5rem;
     border: none;
