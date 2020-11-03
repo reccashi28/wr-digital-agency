@@ -4,33 +4,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WR Digital Agency</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mq.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4687fe535c.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/favicon.png">
 </head>
 <body>
   <!-- ------- navigation menu ----------- -->
     <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#"><img src="/images/logo1.png" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <a class="navbar-brand" href="#"><img src="/images/wr-agency-logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">HOME</a>
+                  <a class="nav-link" href="#banner">HOME</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SERVICES</a>
+                  <a class="nav-link" href="#services">SERVICES</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT US</a>
+                  <a class="nav-link" href="#about-us">ABOUT US</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">TESTIMONIALS</a>
+                  <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#social-media">CONTACT</a>
                   </li>
               </ul>
             </div>
@@ -38,11 +42,11 @@
     </section><!-- ------- end of navigation menu ----------- -->
 <!-- ------ banner ------------ -->
 <section id="banner">
-    <div class="container">
+    <div class="container pad">
         <div class="row">
             <div class="col-md-6 banner1">
-              <p class="promo-title">BEST DIGITAL AGENCY</p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic blanditiis consectetur accusamus eveniet pariatur.</p>
+              <p class="promo-title">WR DIGITAL AGENCY</p>
+              <p>Focus on delivering best results. Our online marketing strategies are tailored to the unique needs of your audience and brand objectives. With the right digital marketing approach, you’ll see improved conversion rate, better user engagement.</p>
             </div>
             <div class="col-md-6 text-center banner-img1">
                 <img src="/images/banner.png" alt="People Meeting" class="img-fluid">
@@ -50,28 +54,141 @@
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300">
           <linearGradient id="gradient">
-            <stop offset="5%" stop-color="#a517ba" />
-            <stop offset="95%" stop-color="#5f1782" />
+            <stop offset="5%" stop-color="rgba(89,109,227,1)" />
+            <stop offset="95%" stop-color="rgba(22,46,149,1)" />
           </linearGradient>
           <path fill="url(#gradient)" fill-opacity="1" d="M0,64L48,85.3C96,107,192,149,288,138.7C384,128,480,64,576,37.3C672,11,768,21,864,37.3C960,53,1056,75,1152,85.3C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
         </svg>
+        
+    </div>
+    <div class="empty-box">
+
     </div>
 </section><!-- ------ end of banner ------------ -->
 <!-- ------ services ------------- -->
 <section id="services">
-  <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="" alt="">
+  <div class="container pad text-center">
+    <h2 class="title ">WHAT WE DO?</h2>
+      <div class="row text-center">
+        <div class="col-md-4 services">
+          <img src="/images/growth.png" alt="Growth Marketing" class="service-img">
+          <h4>Concept & Design</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quis sint sed dicta ab in?</p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="/images/online-branding.png" alt="Online Branding" class="service-img">
+          <h4>Web</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quis sint sed dicta ab in?</p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="/images/animated-ads.png" alt="Online Branding" class="service-img img3">
+          <h4>Promotional Ads</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, quis sint sed dicta ab in?</p>
         </div>
       </div>
   </div>
+</section><!-- ------ end of services ------------- -->
+<!-- ------ about us ------------- -->
+<section id="about-us">
+  <div class="container pad">
+      <h2 class="title text-center">WHY CHOOSE US?</h2>
+      <div class="row">
+          <div class="col-md-6 about-us">
+            <p class="about-title mt-4">Why we are different</p>
+              <ul>
+                <li>Believe in doing business with honesty</li>
+                <li>Understand our client's business goal first</li>
+                <li>We deliver on time</li>
+                <li>We create a winning content strategy</li>
+                <li>We protect your online reputation</li>
+              </ul>
+          </div>
+          <div class="col-md-6 about-us">
+            <img src="/images/about-1.png" alt="about company" class="img-fluid">
+          </div>
+      </div>
+  </div>
+</section> <!-- ------ end of about us ------------- -->
+
+<!-- ------------- testimonials ------------- -->
+<section id="testimonials">
+    <div class="container pad">
+      <h2 class="title text-center">WHAT CLIENTS SAY?</h2>
+      <div class="row text-center">
+        <div class="col-md-5 testimonials"> 
+          <img src="/images/client1.jpg" alt="">
+          <p><b>Sarah</b> <br>
+          Co-founder at XYZ</p>
+          <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, temporibus quia. Dignissimos magnam atque explicabo!</p>
+        </div>
+        <div class="col-md-5 testimonials">
+          <img src="/images/client2.jpg" alt="">
+          <p><b>Daniel</b> <br>
+          Co-founder at XYZ</p>
+          <p class="comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, temporibus quia. Dignissimos magnam atque explicabo!</p>
+        </div>
+      </div>
+    </div>
+</section><!-- ------------- end of testimonials ------------- -->
+<!-- ------------ social media ----------- -->
+<section id="social-media">
+  <div class="container pad text-center">
+    <p>FIND US ON SOCIAL MEDIA</p>
+    <div class="social-icons">
+      <a href="#"><img src="/images/fb-icon.png" alt="Facebook Icon"></a>
+      <a href="#"><img src="/images/instagram-icon.png" alt="Instagram Icon"></a>
+      <a href="#"><img src="/images/linkedin-icon.png" alt="LinkedIn Icon"></a>
+      <a href="#"><img src="/images/snapchat.png" alt="Snapchat Icon"></a>
+      <a href="#"><img src="/images/twitter-icon.png" alt="Twitter Icon"></a>
+      <a href="#"><img src="/images/whats-app.png" alt="WhatsApp Icon"></a>
+      
+    </div>
+  </div>
+</section><!-- ------------ end of social media ----------- -->
+
+<!-- ------ footer ------------- -->
+<section id="footer">
+  <!-- <div class="empty-box box2">
+
+  </div> -->
+  <div class="custom-shape-divider-bottom-1604388707">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+        <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+    </svg>
+  </div>
+  <div class="container pad">
+    <div class="row footer-container">
+      <div class="col-md-4 footer-box">
+        <img src="/images/wr-agency-logo.png" alt="Logo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fuga optio minima voluptatem minus provident dolores dolor alias facilis, quae error dicta exercitationem incidunt dolorum, reiciendis natus.</p>
+      </div>
+      <div class="col-md-4 footer-box">
+       <p><b>CONTACT US</b></p>
+       
+       <p style="font-family: 'Itim', cursive;"><i class="fas fa-map-marker-alt"></i> Paradise St. 29 <br>
+         <span style="padding-left: 65px;">100001, Michael</span>
+      </p>
+      <p style="font-family: 'Itim', cursive;"><i class="fas fa-phone-square-alt"></i> +67 012345678</p>
+      <p style="font-family: 'Itim', cursive;"><i class="fas fa-envelope"></i> abc@gmail.com</p>
+      </div>
+      <div class="col-md-4 footer-box">
+        <p><b>SUBSCRIBE NEWSLETTER</b></p>
+        <input type="email" name="newsletter" id="newsletter" placeholder="Your Email"> <br>
+        <button type="button" class="btn btn-primary">Subscribe</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>&#169; 2020 by R.Meyer</p>
+       </div>
+    </div>
+  </div>
 </section>
-<!-- ------ end of services ------------- -->
+<!-- ------ end of footer ------------- -->
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="/js/app.js"></script>
 </body>
 </html>

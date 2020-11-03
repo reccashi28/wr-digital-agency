@@ -1,0 +1,27 @@
+@media only screen and (max-width: 500px) {
+    .social-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .social-icons a {
+        padding: 1rem;
+    }
+    .pad{
+        padding-top: 30px !important;
+    }
+    #testimonials {
+        padding-top: 2.4rem;
+        /* border: 2px solid green; */
+    }
+    .footer-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    #footer {
+        padding-bottom: 2rem;
+    }
+}
