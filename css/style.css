@@ -99,8 +99,8 @@ background: linear-gradient(90deg, rgba(89,109,227,1) 0%, rgba(22,46,149,1) 100%
     position: absolute;
     width: 100%;
     left: 0;
-    bottom: 0;
     margin-bottom: 5rem;
+    border: none;
 
 }/* --------- end of banner ---------- */
 
